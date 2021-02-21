@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans&display=swap');
+
+/** Gloabal setting, genral styles **/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: 17px 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/** Header **/
+header {
+  background-color: #333;
+  color: #fff;
+  }
+
+ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 75px) 1fr;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+/** Typewriter **/
+#welcome {
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  padding: 5rem 0 1rem 3rem;
+}
+
+.typewriter p {
+  border-right: .15em solid orange;
+  font: 1.2rem 'Audiowide', cursive;
+  letter-spacing: .15em;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.typewriter p:first-of-type {
+
+  width: 25.5em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.typewriter p:last-of-type {
+
+  opacity: 0;
+  width: 12.5em;
+  -webkit-animation: type2 4s steps(40, end);
+  animation: type2 4s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+
+  99.9% {
+    border-right: .15em solid orange;
+  }
+
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+
+  99.9% {
+    border-right: .15em solid orange;
+  }
+
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  99.9% {
+    border-right: .15em solid orange;
+  }
+
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  99.9% {
+    border-right: .15em solid orange;
+  }
+
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
