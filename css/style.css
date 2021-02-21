@@ -29,10 +29,6 @@ header {
   }
 
 nav {
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 75px) 1fr;
   list-style-type: none;
   margin: 0;
   padding: 1rem;
@@ -41,6 +37,18 @@ nav {
 header a {
   color: #a9b7c6;
   text-decoration: none;
+}
+
+/** Projects **/
+#projects {
+  max-width: 80%;
+  padding: 3rem 1rem 1rem 1rem ;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+  padding: .5rem 0;
 }
 
 /** Typewriter **/
@@ -75,7 +83,12 @@ h1 {
 }
 
 /******************* Grids ******************/
-
+nav {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 75px) 1fr;
+}
 
 
 /******************* Animation ******************/
