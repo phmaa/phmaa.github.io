@@ -19,6 +19,19 @@ img {
   max-width: 100%;
 }
 
+.button {
+  background-color: #a9b7c6;
+  color: #333;
+  display: block;
+  height: 1.75rem;
+  font-weight: bold;
+  padding: .25rem;
+  text-align: center;
+  text-decoration: none;
+  width: 125px;
+
+}
+
 /** Header **/
 header {
   background-color: #333;
@@ -46,10 +59,32 @@ header a {
   margin: 0 auto;
 }
 
-h2 {
+#projects div {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #333;
+  padding: .5rem;
+}
+
+#projects h2 {
   font-family: 'Audiowide', cursive;
   padding: .5rem 0;
 }
+
+/** Footer **/
+#contact {
+  background-color: #333;
+  color: #a9b7c6;
+  padding: .25rem 0 1rem 1rem;
+}
+
+#contact a {
+  color: #a9b7c6;
+  padding-bottom: .5rem;
+  text-decoration: none;
+}
+
+
+
 
 /** Typewriter **/
 #welcome {
@@ -66,7 +101,7 @@ h1 {
 }
 
 .typewriter p {
-  border-right: .15em solid orange;
+  border-right: .15em solid #FFC66D;
   font: 1.2rem 'Audiowide', cursive;
   letter-spacing: .15em;
   margin: 0 auto;
@@ -80,6 +115,7 @@ h1 {
 
 .declaration {
   color: #9A76AA;
+  padding: 1rem;
 }
 
 /******************* Grids ******************/
@@ -90,6 +126,15 @@ nav {
   grid-template-columns: repeat(3, 75px) 1fr;
 }
 
+#webdev,
+#database,
+#python,
+#visual,
+#android {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
 
 /******************* Animation ******************/
 .typewriter p:first-of-type {
