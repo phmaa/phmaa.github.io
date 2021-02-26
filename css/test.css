@@ -29,6 +29,7 @@ img {
   text-align: center;
   text-decoration: none;
   width: 125px;
+
 }
 
 /** Header **/
@@ -51,11 +52,15 @@ header a {
   text-decoration: none;
 }
 
-/** Projects **/
+/** Main & Projects **/
 #projects {
   max-width: 80%;
   padding: 3rem 1rem 1rem 1rem ;
   margin: 0 auto;
+}
+
+#projects section {
+  margin-bottom: 2rem;
 }
 
 #projects div {
@@ -81,6 +86,9 @@ header a {
   padding-bottom: .5rem;
   text-decoration: none;
 }
+
+
+
 
 /** Typewriter **/
 #welcome {
@@ -122,17 +130,34 @@ nav {
   grid-template-columns: repeat(3, 75px) 1fr;
 }
 
-#webdev,
-#database,
-#python,
-#visual,
-#android {
+#projects {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  margin-bottom: 2rem;
+  grid-template-rows: repeat(5, auto);
+
 }
 
+#webdev {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: 1;
+}
+
+#database {
+  grid-row: 2;
+}
+
+#python {
+  grid-row: 3;
+}
+
+#visual {
+  grid-row: 4;
+}
+
+#android {
+  grid-row: 5;
+}
 /******************* Animation ******************/
 .typewriter p:first-of-type {
   margin-bottom: 1rem;
