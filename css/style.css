@@ -7,7 +7,6 @@
 
 html {
   font: 17px 'Open Sans', sans-serif;
-  overflow: hidden;
 }
 
 body {
@@ -21,10 +20,12 @@ img {
 
 .button {
   background-color: #a9b7c6;
+  border-radius: 5px;
   color: #333;
   display: block;
   height: 1.75rem;
   font-weight: bold;
+  margin: 0 auto;
   padding: .25rem;
   text-align: center;
   text-decoration: none;
@@ -139,7 +140,7 @@ nav {
 /******************* Animation ******************/
 .typewriter p:first-of-type {
   margin-bottom: 1rem;
-  width: 25.5em;
+  width: 26.5em;
   -webkit-animation: type 4s steps(40, end);
   animation: type 4s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -149,7 +150,7 @@ nav {
 .typewriter p:last-of-type {
   opacity: 0;
   right: 0;
-  width: 12em;
+  width: 12.5em;
   -webkit-animation: type2 4s steps(40, end);
   animation: type2 4s steps(40, end);
   -webkit-animation-delay: 4s;
