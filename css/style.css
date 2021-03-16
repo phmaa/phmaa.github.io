@@ -66,12 +66,22 @@ header a {
 #projects div {
   border-radius: 5px;
   box-shadow: 0 0 10px #333;
-  padding: .5rem;
+  padding-bottom: .5rem;
 }
 
 #projects h2 {
   font-family: 'Audiowide', cursive;
   padding: .5rem 0;
+}
+
+div img {
+  box-shadow: 0 10px 8px -6px #333;
+}
+
+div h3,
+div p {
+  margin: 0;
+  padding: .5rem;
 }
 
 /** Footer **/
@@ -135,6 +145,21 @@ nav {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+#webdev div,
+#database div,
+#python div,
+#visual div,
+#android div {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-rows: auto auto minmax(50px, 1fr) auto;
+
+}
+
+.button {
+
 }
 
 /******************* Animation ******************/
