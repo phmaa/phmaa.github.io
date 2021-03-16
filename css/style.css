@@ -75,7 +75,7 @@ header a {
 }
 
 div img {
-  box-shadow: 0 10px 8px -6px #333;
+  box-shadow: 0 10px 8px -6px #666;
 }
 
 div h3,
@@ -155,10 +155,6 @@ nav {
   display: grid;
   grid-gap: .5rem;
   grid-template-rows: auto auto minmax(50px, 1fr) auto;
-
-}
-
-.button {
 
 }
 
