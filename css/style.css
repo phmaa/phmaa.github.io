@@ -54,7 +54,7 @@ header a {
 
 /** Projects **/
 #projects {
-  max-width: 80%;
+  width: 85%;
   padding: 3rem 1rem 1rem 1rem ;
   margin: 0 auto;
 }
@@ -75,7 +75,7 @@ header a {
 }
 
 div img {
-  box-shadow: 0 10px 8px -6px #333;
+  box-shadow: 0 10px 8px -6px #666;
 }
 
 div h3,
@@ -144,7 +144,7 @@ nav {
 #android {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 #webdev div,
@@ -155,10 +155,6 @@ nav {
   display: grid;
   grid-gap: .5rem;
   grid-template-rows: auto auto minmax(50px, 1fr) auto;
-
-}
-
-.button {
 
 }
 
