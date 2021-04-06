@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio -- Maa</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#welcome">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome">
+        <h1><code><span class="keyword">def </span><span class="declaration">greeting</span>():<br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="keyword">return </span>"Hi, I'm Hwey"</code>
+        </h1>
+        <div class="typewriter">
+          <p>"You never fail until you stop trying."</p>
+
+          <p> &#8210; Albert Einstien</p>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Web Development</h2>
+        <section id="webdev">
+          <div>
+              <img src="images/food_guru-350.jpg" width="597" height="350" alt="Banana">
+                <h3>CSS Grid</h3>
+                <p>A responsive website handled by CSS Grid and media queries.</p>
+                <a href="project-grid/index.html" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/flex-350.jpg" width="590" height="350" alt="Flexbox">
+              <h3>Flexbox</h3>
+              <p>A CSS Flexbox model that automatically arranges elements based on the viewport sizes.</p>
+              <a href="project-flex/index.html" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/silhouet-350.jpg" width="590" height="375" alt="T-shirts">
+              <h3>HD Images</h3>
+              <p>Provide the optimal image file to the browser based on device pixel ratio and image size.</p>
+              <a href="https://phmaa.github.io/projectHD/" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/salon-350.jpg" width="590" height="350" alt="Brand Salon logo">
+              <h3>Responsive Design</h3>
+              <p>Using pure CSS code to create responsive navigation, flexible images and dynamic text.</p>
+              <a href="https://phmaa.github.io/Brand_Salon/" class="button">Check It Out</a>
+          </div>
+
+        </section>
+
+        <h2>Databases</h2>
+        <section id="database">
+          <div>
+              <img src="images/mysql-350.jpg" width="640" height="332" alt="Banana">
+              <h3>Production Databases</h3>
+              <p>Querying and manipulating data from various RDBMS, including Microsoft SQL Server, Oracle, SQLite, MariaDB, PostgreSQL and MySQL.</p>
+              <a href="https://github.com/phmaa/scripts" class="button" target='_blank'>Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/diagram-350.jpg" width="640" height="332" alt="Banana">
+              <h3>OLAP Databases</h3>
+              <p>Configured SSIS and used the ETL component to design tasks that feed data from disparate data sources into the data warehouse.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/package-350.jpg" width="640" height="332" alt="Banana">
+              <h3>Data Integration</h3>
+              <p>Built packages of automated workflows through ETL process and piped data off to a wide range of file types and destinations.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/mysql-350.jpg" width="640" height="332" alt="Banana">
+              <h3>Data Reporting</h3>
+              <p>Created enhanced SSRS reports for analytical purposes to make informed business decisions.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+        </section>
+<!--
+        <h2>Programming</h2>
+        <section id="python">
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Dijkstra's Algorithm</h3>
+              <p>Implemented Dijkstra's Algorithm to find single source shortest path in order of O(V+E) time.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Kosaraju's Algorithms</h3>
+              <p>Used two passes of DFS to find strongly connected compoments in a directed graph and the number of SCCs in time O(V+E).</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Cryptograph & Computer Security/h3>
+              <p>Used two passes of DFS to find strongly connected compoments in a directed graph and the number of SCCs in time O(V+E).</p>
+              <a href="https://notebooks.gesis.org/binder/jupyter/user/phmaa-crypto-9edorlsh/tree" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Cryptanalysis: Vigen&#232;re Cipher</h3>
+              <p>Used two passes of DFS to find strongly connected compoments in a directed graph and the number of SCCs in time O(V+E).</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+        </section>
+
+        <h2>Visulization</h2>
+        <section id="visual">
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+        </section>
+
+        <h2>Android</h2>
+        <section id="android">
+          <div>
+              <img src="images/bananas-640.png" width="640" height="332" alt="Banana">
+              <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="button">Check It Out</a>
+          </div>
+        </section>
+      -->
+      </section>
+    </main>
+
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <a href="#" target="_blank">GitHub</a>
+    </footer>
+  </body>
+</html>
